@@ -7,7 +7,7 @@ import socket
 app = Flask(__name__)
 
 # Register a route
-@app.route("/my-profile")
+@app.route("/")
 def index():
     return render_template('index.html')
 
